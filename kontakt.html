@@ -12,7 +12,7 @@
 
 <!-- Header -->
 <header class="bg-primary text-white text-center py-5">
-  <h1>Lebenslauf</h1>
+  <h1>Mein Blog</h1>
 </header>
 
 <!-- Navbar -->
@@ -39,43 +39,33 @@
   </div>
 </nav>
 
-<!-- Hauptinhalt -->
+
+<!-- Contact Form Section -->
 <div class="container mt-4">
-  <h2>Willkommen auf meinem Blog!</h2>
-  <p>
-    Dies ist ein einfacher Blog mit Bootstrap. Hier können Sie Ihre Beiträge hinzufügen und die Navigation oben verwenden, um zwischen den Beiträgen zu wechseln.
-  </p>
-</div>
-
-<!-- Abschnitt: Tägliche Essensgewohnheiten -->
-
-
-<!-- Bildergalerie -->
-<div class="container mt-4">
-  <h3>Bildergalerie</h3>
-  <div class="row">
-    <div class="col-md-4 mb-3">
-      <img src="bilder/Herbst.jpg" alt="Bild 1" class="img-fluid">
+  <h1 class="text-center">Kontaktformular</h1>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Dein Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Deine Email-Adresse">
+        </div>
+        <div class="form-group">
+          <label for="message">Nachricht</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Deine Nachricht"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Absenden</button>
+      </form>
     </div>
-    <div class="col-md-4 mb-3">
-      <img src="bilder/Winter.jpg" alt="Bild 2" class="img-fluid">
-    </div>
-    <div class="col-md-4 mb-3">
-      <img src="bilder/Frühling.jpg" alt="Bild 3" class="img-fluid">
-    </div>
-    <!-- Fügen Sie weitere Bilder nach Bedarf hinzu -->
   </div>
 </div>
 
-<!-- Fußzeile -->
-<footer class="bg-dark text-white text-center py-3">
-  <p>&copy; 2024 Mein Blog. Alle Rechte vorbehalten.</p>
-</footer>
-
-<!-- Bootstrap JavaScript und jQuery (Voraussetzung für einige Bootstrap-Funktionen) -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
